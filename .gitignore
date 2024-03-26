@@ -1,0 +1,33 @@
+# Ignore virtual environment directories
+venv/
+*.env
+
+# Ignore dependency management files
+pipfile.lock
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+.venv/
+
+# Ignore log files and output directories
+logs/
+output/
+
+# Ignore compiled code and build artifacts
+__pycache__/
+*.pyc
+dist/
+build/
+
+# Ignore sensitive information
+config.ini
+secrets.txt
+credentials.json
+
+# Data files
+*.db
+
+.idea/ProjectLife.iml
+.idea/inspectionProfiles/profiles_settings.xml
